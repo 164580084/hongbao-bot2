@@ -2,7 +2,7 @@ const { Wechaty, Room, Contact } = require('wechaty')
 const { getUrl, isIncludeUrl, isSendUrl, getUserOwnInfo, isMeituan, getUrlType} = require("./utils")
 const axios = require("axios")
 
-const bot = Wechaty.instance() //‘Promise’为微信名， 避免每次启动程序重新扫码
+const bot = Wechaty.instance()
 let userInfos = []   //用户信息（姓名，红包）
 
 bot

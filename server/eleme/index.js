@@ -30,7 +30,7 @@ async function request({ mobile, url, nickname }) {
     return (async function lottery(phone) {
         let cookie = {}
         if (index >= 18) {
-            return '抱歉,此次领取红包失败，换个红包试试'
+            return '领取失败，系统资源不足(cookie或手机号)或者其他未知原因'
         }else if (index === -1) {
             cookie = randomCookie(false)
         }else {
