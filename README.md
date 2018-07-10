@@ -1,5 +1,5 @@
 # 饿了么红包微信机器人
-原项目[hongbao-bot](https://github.com/dj940212/hongbao-bot)已经失效，在本项目进行修复，增加服务端
+原项目[hongbao-bot](https://github.com/dj940212/hongbao-bot)已经失效，在本项目进行修复，仅支持饿了么
 
 ## 使用
 - 向机器人微信转发饿了么拼手气红包
